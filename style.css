@@ -1,0 +1,36 @@
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background-color: rgb(230, 230, 230); font-size: 13px; color: rgb(0, 0, 0); }
+        
+        .Header { background: rgb(146, 146, 146); padding: 15px 10px; display: flex; justify-content: space-between; font-weight: bold; }
+        .toolbar { background: #fff; padding: 10px 20px; display: flex; }
+        
+        .btn-group button { padding: 6px 12px; margin-right: 5px; background: rgb(197, 194, 194); border: 1px solid rgb(202, 202, 202); cursor: pointer; border-radius: 3px; }
+        .formSearch { display: flex; }
+        .formSearch input { padding: 6px 10px; width: 220px; border: 1px solid grey; border-right: none; border-radius: 3px 0 0 3px;  }
+        .formsearch button { padding: 6px 10px; background: white; border: 1px solid grey; border-radius: 0 3px 3px 0; cursor: pointer; }
+{box-sizing: border-box;}
+.column {
+  float: left;
+  width: 20%;
+  padding: 50px;
+  height: 500px; 
+}
+.column {
+  float: left;
+  padding: 10px;
+  height: 500px; 
+}
+
+.left {
+  width: 10%;
+}
+
+.right {
+  width: 75%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
